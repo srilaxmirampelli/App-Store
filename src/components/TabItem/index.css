@@ -1,0 +1,25 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.active-tabitem-btn {
+  color: #2563eb !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px;
+  border-bottom-color: #2563eb !important;
+}
+.default-tabitem-btn {
+  color: #7b8794;
+  background-color: transparent;
+  border: 2px solid rgb(203, 205, 206);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-weight: 500;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  outline: none;
+}

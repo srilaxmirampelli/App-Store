@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9, #ace0f9);
+}
+.app-store-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.searchbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #7b8794;
+  border-radius: 5px;
+  padding: 12px;
+  width: 300px;
+}
+.search-bar {
+  border-width: 0;
+  outline: none;
+  background-color: transparent;
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+}
+.tabItem-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 30px;
+}
+.apps-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  width: 80vw;
+}
+@media screen and (max-width: 576px) {
+  .apps-list {
+    width: 90vw;
+  }
+}
